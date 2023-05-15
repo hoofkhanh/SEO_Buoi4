@@ -1,0 +1,259 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding-right: 594px;
+    white-space: nowrap;
+    background-color: #000;
+}
+
+nav ul li {
+    display: inline-block;
+    
+}
+
+nav ul li a {
+    display: block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #666;
+}
+
+.hero {
+    background-image: url('C:/Users/DELL/Downloads/pexels-ron-lach-8128065.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+
+.btn:hover {
+    background-color: #666;
+}
+
+.featured-products {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    clear: both;    
+}
+
+footer p {
+    margin: 0;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .product {
+    text-align: center;
+  }
+  
+  .product img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .product h3, .product p {
+    margin: 10px 0;
+  }
+  
+  .btn {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .intro {
+    padding: 50px;
+    border-radius: 5px;
+    color: #333;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .titleIntro{
+    padding: 80px;
+    text-align: center;
+   font-size: 30px;
+   color: #000;
+  }
+ 
+  .end{
+    float: left;    
+  }
+
+  .text {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 200px;
+  }
+
+   span{
+    color: red  ;
+   }
+
+   .more{
+    text-decoration: underline;
+    color: white;
+   }
+
+  h1{
+    font-size: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+  }
+  
+  span.demo{
+    padding-left: 20px;
+    padding: 10px 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: underline;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  
+  .col-md-4 {
+    flex: 1;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+  }
+  
+  .col-md-4:last-child {
+    margin-right: 0;
+  }
+  
+  @media (max-width: 767px) {
+    .col-md-4 {
+      flex-basis: 100%;
+      margin-right: 0;
+    }
+  }
+
+  .hotro{
+    margin-top: 20px;
+    line-height: 25px;
+    font-size: 13px;
+    color: #666;
+  }
+
+  .hotro2{
+    font-size: 13px;
+  }
+  
+  .vertical-line {
+    width: 3px;
+    background-color: #eae3e3;
+    height: 380px;  
+    margin-right:60px;
+}
+
+.hotro3{
+  margin-right: 50px;
+  font-size: 13px;
+}
+
+input[type="button"] {
+  border: 1px solid gray;
+  font-size: 16px;
+  background-color: white;
+  padding: 5px 5px 5px 5px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  color: #333;
+}
+
+.col-md-5 {
+  flex: 1;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  margin-left: 150px;
+}
+
+.col-md-6 {
+  flex: 1;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  margin-left: 30px;
+}
+
+.ht{
+  color: #666;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.hotro1{
+  margin-top :5px;
+  line-height: 25px;
+  font-size: 13px;
+  color: #666;
+}
+
+.hotro4{
+  margin-left: 10px;
+}
+
+.hotro4 input[type="button"]{
+  color: white;background-color: green;
+}
